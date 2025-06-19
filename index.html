@@ -4,6 +4,120 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Fullstack Architecture Evolution</title>
+    <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+    <div class="container">
+        <h1>📋 Fullstack Architecture Blueprint</h1>
+
+        <div class="blueprint-grid">
+            <!-- CLIENT LAYER -->
+            <div class="blueprint-component client-layer">Web Client</div>
+            <div class="blueprint-component gateway">API Gateway</div>
+            <div class="blueprint-component load-balancer">Load Balancer</div>
+
+            <!-- SERVICE LAYER -->
+            <div class="blueprint-component user-service">User Service</div>
+            <div class="blueprint-component product-service">Product Service</div>
+            <div class="blueprint-component order-service">Order Service</div>
+            <div class="blueprint-component payment-service">Payment Service</div>
+
+            <!-- INFRASTRUCTURE LAYER -->
+            <div class="blueprint-component message-queue">Message Queue</div>
+            <div class="blueprint-component cache">Redis Cache</div>
+            <div class="blueprint-component search">Search Engine</div>
+
+            <!-- DATA LAYER -->
+            <div class="blueprint-component database-1">User Database</div>
+            <div class="blueprint-component database-2">Product Database</div>
+            <div class="blueprint-component monitoring">Monitoring</div>
+            <div class="blueprint-component logging">Logging</div>
+
+            <!-- CONNECTION LINES -->
+            <div class="connection-line line-1"></div>
+            <div class="connection-line line-2"></div>
+            <div class="connection-line line-3"></div>
+            <div class="connection-line line-4"></div>
+            <div class="connection-line line-5"></div>
+
+            <!-- LEGEND -->
+            <div class="legend">
+                <div class="legend-item">
+                    <div class="legend-color" style="background: #27ae60;"></div>
+                    <span>Client Layer</span>
+                </div>
+                <div class="legend-item">
+                    <div class="legend-color" style="background: #f39c12;"></div>
+                    <span>Gateway Layer</span>
+                </div>
+                <div class="legend-item">
+                    <div class="legend-color" style="background: #e74c3c;"></div>
+                    <span>Business Services</span>
+                </div>
+                <div class="legend-item">
+                    <div class="legend-color" style="background: #95a5a6;"></div>
+                    <span>Infrastructure</span>
+                </div>
+                <div class="legend-item">
+                    <div class="legend-color" style="background: #16a085;"></div>
+                    <span>Data Layer</span>
+                </div>
+            </div>
+        </div>
+
+        <!-- BRAINSTORM IDEAS -->
+        <div class="brainstorm-titles">
+            <div class="brainstorm-card">
+                <div class="brainstorm-title">🎯 Scalability Planning</div>
+                <div class="brainstorm-description">
+                    Plan for 10x and 100x growth with horizontal scaling, DB sharding, and cache strategies.
+                </div>
+            </div>
+            <div class="brainstorm-card">
+                <div class="brainstorm-title">🔒 Security Architecture</div>
+                <div class="brainstorm-description">
+                    Secure APIs, input validation, auth flows, encryption, and attack protection.
+                </div>
+            </div>
+            <div class="brainstorm-card">
+                <div class="brainstorm-title">⚡ Performance Optimization</div>
+                <div class="brainstorm-description">
+                    Add caching, CDN, DB indexing, lazy loading, and sub-second response goals.
+                </div>
+            </div>
+            <div class="brainstorm-card">
+                <div class="brainstorm-title">🔄 Data Flow Mapping</div>
+                <div class="brainstorm-description">
+                    Map event-driven flow with queues, eventual consistency, and service chaining.
+                </div>
+            </div>
+            <div class="brainstorm-card">
+                <div class="brainstorm-title">🛠️ DevOps Integration</div>
+                <div class="brainstorm-description">
+                    Set up CI/CD pipelines, containers, infra-as-code, monitoring, and automated testing.
+                </div>
+            </div>
+            <div class="brainstorm-card">
+                <div class="brainstorm-title">🚨 Error Handling & Recovery</div>
+                <div class="brainstorm-description">
+                    Use retries, backups, circuit breakers, fallbacks, and graceful failure handling.
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
+
+
+<!-- <!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Mall Architecture & Blueprint</title>
     <link rel="stylesheet" href="style.css" />
 </head>
@@ -11,8 +125,8 @@
 <body>
     <div class="container">
         <h1>🏢 Mall Architecture & Blueprint Design</h1>
-        <!-- All your HTML content remains here (mall-section, blueprint-section, etc.) -->
+     All your HTML content remains here (mall-section, blueprint-section, etc.) 
     </div>
 </body>
 
-</html>
+</html> -->
